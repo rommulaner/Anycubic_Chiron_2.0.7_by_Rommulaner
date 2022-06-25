@@ -8,7 +8,7 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "d:/3D-Druck/3D-Drucker/Anycubic_Chiron/Firmware/Anycubic_Chiron_2.0.7_by_Rommulaner/Marlin-2.0.7/Marlin",
+                "d:/3D-Druck/3D-Drucker/GitHub/Anycubic_Chiron_2.0.7_by_Rommulaner/Marlin",
                 "C:/Users/Rommulaner/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                 "C:/Users/Rommulaner/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/Rommulaner/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
@@ -21,7 +21,7 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "d:/3D-Druck/3D-Drucker/Anycubic_Chiron/Firmware/Anycubic_Chiron_2.0.7_by_Rommulaner/Marlin-2.0.7/Marlin",
+                    "d:/3D-Druck/3D-Drucker/GitHub/Anycubic_Chiron_2.0.7_by_Rommulaner/Marlin",
                     "C:/Users/Rommulaner/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                     "C:/Users/Rommulaner/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/Rommulaner/.platformio/packages/framework-arduino-avr/libraries/SPI/src",

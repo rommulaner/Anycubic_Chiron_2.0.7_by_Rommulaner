@@ -566,7 +566,7 @@
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
 #define PREVENT_COLD_EXTRUSION
-#define EXTRUDE_MINTEMP 170
+#define EXTRUDE_MINTEMP 160
 
 /**
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
@@ -789,7 +789,7 @@
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
  */
-//#define CLASSIC_JERK  //If not defined, Linear Advance will be activated automatically
+#define CLASSIC_JERK  //If not defined, Linear Advance will be activated automatically
 
 #if ENABLED(CLASSIC_JERK)
   #define DEFAULT_XJERK 8.0
@@ -827,9 +827,9 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#if ENABLED(CLASSIC_JERK)
-  #define S_CURVE_ACCELERATION
-#endif
+
+//#define S_CURVE_ACCELERATION
+
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -994,7 +994,7 @@
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define PROBING_MARGIN 10
+#define PROBING_MARGIN 0
 
 // X and Y axis travel speed (mm/min) between probes
 #define XY_PROBE_SPEED (150*60)
